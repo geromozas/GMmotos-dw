@@ -1,0 +1,13 @@
+.logo{
+    width: 100px;
+    border-radius: 0.3rem;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    width: 70%;
+    margin: 100px auto;
+}

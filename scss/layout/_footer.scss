@@ -1,0 +1,23 @@
+footer {
+  @include flex(row, space-around, center);
+  background-color: $background-principal;
+  height: 100px;
+  position: absolute;
+  bottom: auto;
+  width: 100%;
+  p {
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+  }
+  div {
+    display: flex;
+    svg {
+      margin: 0 15px;
+      color: rgba(255, 255, 255, 0.55);
+      transition: box-shadow 0.3seg ease;
+    }
+    svg:hover {
+      color: rgba(255, 255, 255, 0.75);
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.titulo{
+    margin: 30px;
+    text-align: center;
+}
+
+.motoimg{
+    width: 350px;
+    margin: 50px;    
+}
+
+.textomoto{
+    font-size: 25px;
+    /*margin-left: 10px;*/
+    text-align: center;
+}
+
+h5 {
+    margin-left: 30px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: auto auto;
+    div {
+        transition: box-shadow 0.5s ease;
+        cursor: pointer;
+   }
+    div:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    }   
+    .caja1 {
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 0.5rem;
+    }
+    .caja2 {
+        @extend .caja1;
+    }
+    .caja3 {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
+    }
+    .caja4 {
+    @extend .caja3;
+    }
+}
+
