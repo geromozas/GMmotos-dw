@@ -8,7 +8,7 @@
 }
 
 .carousel-inner {
-  height: 650px;
+  height: 1000px;
 }
 
 .logo {
@@ -41,20 +41,19 @@ footer {
   align-items: center;
   background-color: #212529;
   height: 100px;
-  /* position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%; */
   margin-top: auto;
   padding: 10px;
 }
+
 footer p {
   color: rgba(255, 255, 255, 0.55);
   margin: 0;
 }
+
 footer div {
   display: flex;
 }
+
 footer div svg {
   margin: 0 15px;
   color: rgba(255, 255, 255, 0.55);
@@ -76,7 +75,6 @@ footer div svg:hover {
 
 .textomoto {
   font-size: 25px;
-  /*margin-left: 10px;*/
   text-align: center;
 }
 
@@ -88,19 +86,23 @@ h5 {
   display: grid;
   grid-template-columns: auto auto;
 }
+
 .grid-layout div {
   transition: box-shadow 0.5s ease;
   cursor: pointer;
 }
+
 .grid-layout div:hover {
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
 }
+
 .grid-layout .caja1,
 .grid-layout .caja2 {
   background-color: white;
   margin-bottom: 25px;
   border-radius: 0.5rem;
 }
+
 .grid-layout .caja3,
 .grid-layout .caja4 {
   background-color: white;
@@ -113,10 +115,12 @@ form {
   margin: auto;
   margin-top: 60px;
 }
+
 form input {
   width: 100%;
   margin-bottom: 20px;
 }
+
 form textarea {
   width: 100%;
 }
