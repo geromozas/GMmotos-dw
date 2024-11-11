@@ -1,44 +1,51 @@
-@media (max-width: 800px){
-
-    .logo {
-        padding: 10px;
-        border-radius: 15px;
-    }
+@media (max-width: 1000px) {
+  .grid-layout {
+    grid-template-columns: auto;
+  }
 }
 
-@media (max-width: 650px){
-
-    .container div {
-        width: 300px;
-    }
-
-    .motoimg {
-        width: 300px;
-        margin: 0;
-    }
-
-    .carousel-inner{
-        height: 200px;
-    }
-
-    footer p {
-        margin-left: 10px;
-    }
-
-    form {
-        width: 100%;
-        padding: 10px;
-    }
+@media (max-width: 800px) {
+  .logo {
+    padding: 10px;
+    border-radius: 15px;
+  }
 }
 
-@media (max-width: 450px){
-    footer p {
-        font-size: 10px;
-    }
+@media (max-width: 650px) {
+  .container div {
+    width: 300px;
+  }
+
+  .motoimg {
+    width: 300px;
+    margin: 0;
+  }
+
+  .carousel-inner {
+    height: 200px;
+  }
+
+  footer p {
+    margin-left: 10px;
+  }
+
+  form {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
-@media (max-width: 1000px){
-    .grid-layout {
-        grid-template-columns: auto;
-    }
+@media (max-width: 450px) {
+  footer p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .caja1,
+  .caja2,
+  .caja3,
+  .caja4 {
+    width: 250px;
+  }
 }
